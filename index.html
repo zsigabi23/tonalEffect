@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TonalEffect</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="about.css">
+</head>
+<body>
+	<header id="header">
+		<a href="#" class="logo">Tonal Effect</a>
+		<ul>
+			<li><a href="#home" class="active" onclick="toggle()">Home</a></li>
+			<li><a href="#about" onclick="toggle()">About</a></li>
+			<li><a href="#gallery" onclick="toggle()">Gallery</a></li>
+			<li><a href="#contact" onclick="toggle()">Contact</a></li>
+		</ul>
+		<div class="toggle" onclick="toggle()"></div>
+	</header>
+
+	<section id="home" class="banner">
+		<div>
+			<img src="bg.jpeg">
+			<div class="content">
+				<h2>Tonal Effect</h2>
+				<p class="text">We are
+					committed in the
+					development of effective
+					solutions in different
+					opportunities, namely
+					educational, health,
+					government and small
+					institutions. Tonal Effect has
+					a diverse team of
+					professionals, who are
+					passionate and creative
+					about growing our clients
+					businesses.</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="about" class="about">
+		<div class="contentBx">
+			<h2 class="heading">About Us</h2>
+			<p class="text">Tonal Effect PTY LTD is a
+				Technology company in
+				Africa, that is a full service
+				registered private
+				organisation. We are
+				committed in the
+				development of effective
+				solutions in different
+				opportunities, namely
+				educational, health,
+				government and small
+				institutions. Tonal Effect has
+				a diverse team of
+				professionals, who are
+				passionate and creative
+				about growing our clients
+				businesses. We are a
+				BBBEEE level 1 with 135%
+				procurement recognition and
+				a trusted source in
+				eliminating common issues
+				that distract our clients from
+				running their business.</p>
+		</div>
+		<div class="imgBx"></div>
+	</section>
+
+	<section id="gallery" class="services">
+		<h2 class="heading">Our Services</h2>
+		<p class="text">1. Logo Design, Business Cards, QR Codes, SEO + SEM, Social Media, Brand Strategy + Architecture,
+			<br>Websites + E-Commerce Development, Chat Box and Hosting.</br>
+					<br>2. Remotely repair and upgrade your computer/ devices, Configuration and patch management,</br>
+			<br>Licensing and Certificate management, Cybersecurity Hackproofing.</br>
+		</p>
+		<div class="container">
+		<div class="serviceBx">
+			<div>
+				<img src="icon1.png">
+				<h2>Branding , Graphic and <br>
+					Web Development.</br>
+				</h2>
+			</div>
+		</div>
+		<div class="serviceBx">
+			<div>
+				<img src="icon2.jpg">
+				<h2>Service Desk support and devices.</h2>
+			</div>
+		</div>
+		<div class="serviceBx">
+			<div>
+				<img src="icon3.png">
+				<h2>Enterprise mobility solutions.</h2>
+			</div>
+		</div>
+	</div>	
+	</section>
+	<section id="contact" class="contact">
+		<div class="contentS">
+			<h2>Contact Us</h2>
+		</div>
+		<div class="containerS">
+			<div class="contactInfo">
+				<div class="boc">
+					<div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+						<div class="text1">
+							<h3>Address</h3>
+							<p>86 ALbertina Sisulu Road,<br>Roodeport,<br>Gauteng</p>
+						</div>
+				</div>
+				<div class="boc">
+					<div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+						<div class="text1">
+							<h3>Phone</h3>
+							<p>+27711547379</p>
+						</div>
+				</div>
+				<div class="boc">
+					<div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+						<div class="text1">
+							<h3>Email</h3>
+							<p>info@tonaleffect.com</p>
+						</div>
+				</div>
+			</div>
+			<div class="contactForm">
+				<form>
+					<h2>Send Message</h2>
+					<div class="inputBox">
+						<input type="text" name="" required="required">
+						<span>Full Name</span>
+					</div>
+					<div class="inputBox">
+						<input type="text" name="" required="required">
+						<span>Email</span>
+					</div>
+					<div class="inputBox">
+						<textarea required="required"></textarea>
+						<span>Type Your Mesaage..</span>
+					</div>
+					<div class="inputBox">
+						<input type="submit" name="" value="send">
+					</div>
+				</form>
+			</div>
+		</div>
+	  </section>
+
+	  <section class="footer">
+		<p class="text">Our main concern is Secure.</p>
+		<ul>
+			<p class="text">Follow us on :</p>
+			<li><a href="https://www.facebook.com/tonaleffect"><img src="facebook.png"></a></li>
+			<li><a href="https://twitter.com/tonaleffect"><img src="twitter.png"></a></li>
+			<li><a href="https://www.instagram.com/tonaleffect/?hl=en"><img src="linkedin.png"></a></li>
+		</ul>
+	</section>
+
+	<script type="text/javascript">
+		function toggle(){
+			var header = document.getElementById("header")
+			header.classList.toggle('active')
+		}
+	</script>
+</body>
+</html>
